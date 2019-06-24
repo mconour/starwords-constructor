@@ -1,0 +1,23 @@
+{
+  "name": "constructor-word-guess",
+  "version": "1.0.0",
+  "description": "week 11 hw",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^6.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mconour/constructor-word-guess.git"
+  },
+  "author": "MC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mconour/constructor-word-guess/issues"
+  },
+  "homepage": "https://github.com/mconour/constructor-word-guess#readme"
+}
