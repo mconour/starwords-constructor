@@ -1,9 +1,5 @@
-# constructor-word-guess
-Advanced JavaScript Assignment: Constructor Word Guess Optional Assignment
+# Star Wars character guessing game
 
-
-A hangman-type word guessing game. Run entirely in command line using inquirer and more.
-
-# Ninties TV Show names
+Star Wars character guessing game. Run entirely in command line using inquirer and more.
 
 <img src="screencast-github.com-2019.06.23-21-01-37.gif" />

@@ -6,20 +6,20 @@ var letterArray = "abcdefghijklmnopqrstuvwxyz";
 
 // List of words to choose from
 var ninetiesTVShows = [
-  "friends",
-  "saved by the bell",
-  "boy meets world",
-  "seinfeld",
-  "full House",
-  "family matters",
-  "twin peaks",
-  "home improvement",
-  "simpsons",
-  "frasier",
-  "rugrats",
-  "all that",
-  "are you afriad of the dark",
- "wonder years"      
+  "chewbacca",
+  "yoda",
+  "jar jar binks",
+  "luke skywalker",
+  "boba fett",
+  "han solo",
+  "rey",
+  "finn",
+  "mace windu",
+  "anakin skywalker",
+  "darth vader",
+  "lando calrissian",
+  "poe dameron",
+ "padme amidala"  
   
   
 ];
@@ -63,7 +63,7 @@ function theLogic() {
       .prompt([
         {
           type: "input",
-          message: "Nineties Show Names, guess a letter between A-Z!",
+          message: "Star Wars , guess a letter between A-Z!",
           name: "userinput"
         }
       ])
