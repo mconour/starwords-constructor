@@ -1,8 +1,3 @@
-# Star Wars character guessing game
-
-Star Wars character guessing game. Run entirely in command line using inquirer and more.
-
-
 1. JavaScript
 2. Inquirer
 3. Node
