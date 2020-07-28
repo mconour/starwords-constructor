@@ -5,7 +5,7 @@ var inquirer = require("inquirer");
 var letterArray = "abcdefghijklmnopqrstuvwxyz";
 
 // List of words to choose from
-var starwarsNames = [
+var characterNames = [
   "chewbacca",
   "yoda",
   "jar jar binks",
@@ -24,9 +24,9 @@ var starwarsNames = [
   
 ];
 
-// Pick Random index from starwarsNames array
-var randomIndex = Math.floor(Math.random() * starwarsNames.length);
-var randomWord = starwarsNames[randomIndex];
+// Pick Random index from characterNames array
+var randomIndex = Math.floor(Math.random() * characterNames.length);
+var randomWord = characterNames[randomIndex];
 
 // Pass random word through Word constructor
 var computerWord = new Word(randomWord);
@@ -43,9 +43,9 @@ var guessesLeft = 10;
 function theLogic() {
   // Generates new word for Word constructor if true
   if (requireNewWord) {
-    // Selects random starwarsNames array
-    var randomIndex = Math.floor(Math.random() * starwarsNames.length);
-    var randomWord = starwarsNames[randomIndex];
+    // Selects random characterNames array
+    var randomIndex = Math.floor(Math.random() * characterNames.length);
+    var randomWord = characterNames[randomIndex];
 
     // Passes random word through the Word constructor
     computerWord = new Word(randomWord);
