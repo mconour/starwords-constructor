@@ -61,4 +61,4 @@ After winning or losing, you will be prompted to choose whether to play again or
 
 ---
 
-Have fun guessing Star Wars characters' names with Word Constructor! May the Force be with you!
+Have fun guessing Star Wars characters' names with StarWords Constructor! May the Force be with you!
