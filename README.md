@@ -13,7 +13,7 @@
 
 ## Installation
 
-To run Word Constructor on your local machine, follow these steps:
+To run StarWords Constructor on your local machine, follow these steps:
 
 1. Clone the repository to your local system.
 2. Navigate to the project directory using the command line.
@@ -25,7 +25,7 @@ To run Word Constructor on your local machine, follow these steps:
 
 ## Usage
 
-To start playing Word Constructor, execute the following command in your terminal:
+To start playing StarWords Constructor, execute the following command in your terminal:
 
 ```
 node index.js
@@ -44,7 +44,7 @@ The game will prompt you to guess letters for a random Star Wars character's nam
 ## Game Logic
 
 - The game selects a random Star Wars character's name from the list.
-- The selected word is passed through the Word constructor.
+- The selected word is passed through the StarWords constructor.
 - The game checks if your guessed letters are correct.
 - You win the game if you guess all the letters correctly.
 - You lose the game if you run out of guesses.
